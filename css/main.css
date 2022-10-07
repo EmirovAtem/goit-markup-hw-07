@@ -160,7 +160,7 @@ h3 {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  color: var(--accent-color);
+  color: .logo__accent --logo-color;
 }
 
 .nav {
