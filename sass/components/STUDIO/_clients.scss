@@ -7,23 +7,23 @@
     align-items: center;
     list-style: none;
   }
-  &__item {
+  .client__item {
     margin-right: 30px;
   }
-  &__icon-main {
+  .client__icon-main {
     width: 106px;
     height: 60px;
   
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1)
   }
  
-  &__link, &__icon-main {
+  .client__link, .client__icon-main {
     &:hover, &:focus {
         fill: var(--button-secondary-color); 
     }
 }
 
-  &__link {
+.client__link {
     width: 170px;
     height: 92px;
   
@@ -37,12 +37,12 @@
   
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1)
   }
-  &__link {:hover, :focus {
+  .client__link {:hover, :focus {
     border: 1px solid var(--button-secondary-color);
     }
 }
   
-  &__icon-main, &__item {    
+.client__icon-main, .client__item {    
   &:last-child {
     margin-right: 0;
   }
