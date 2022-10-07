@@ -53,11 +53,7 @@
    } 
        
   .modal__title {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 1.15;
-    text-align: center;
-    letter-spacing: 0.03em;
+    @include modalTitle;
     
     color: var(--title-text-color);
     margin-bottom: 12px;
@@ -73,11 +69,7 @@
   /* element-name */
     .modal__field {
       position: relative;
-      height: 58px;
-      width: 448px;
-   font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.01em;
+      @include modalField;
   margin-bottom: 10px;
   
     }
@@ -107,11 +99,7 @@
           
 
     .modal__field-area {
-      width: 448px;
-     height: 138px;
-      font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.01em;
+    @include modalArea;
     }
     .modal__field-area textarea:focus, .modal__field-area textarea:hover {
       border-color: var(--accent-color);

@@ -3,11 +3,7 @@
     margin-left: 70px;
   }
   .footer-social__text {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+    @include footerSocial;
     color: var(--whight-color);
   
     margin-bottom: 20px;

@@ -1,49 +1,37 @@
+.section__title {
+  @include fontsection;
+  color: var(--title-text-color);
 
-  .setion__title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    color: var(--title-text-color);
-  
-    text-align: center;
-    margin-bottom: 50px;
-  }
-  .work {
-    padding-top: 0px;
-  
-    .work__main {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.work {
+  padding-top: 0px;
+
+  .work__main {
     display: flex;
-    }
-    .work__item {
-      position: relative;
-      margin-left: 30px;
-    }
-    .work__main.work__item:first-child {
+  }
+  .work__item {
+    position: relative;
+    margin-left: 30px;
+  }
+  .work__main.work__item:first-child {
     margin-left: 0;
-   }
-  
-   .work__img {
+  }
+
+  .work__img {
     display: block;
   }
   .work__title {
-    font-weight: 700;
     position: absolute;
     bottom: 0px;
     left: 0px;
     padding: 27px 0px;
-  
-    width: 370px;
-   
-    font-size: 14px;
-    line-height: 1.14;
-    text-align: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-  
+
+    @include fontTitle;
+
     color: var(--whight-color);
     background-color: rgba(47, 48, 58, 0.8);
   }
 }
-  /* li наименование в списке */
-  
+/* li наименование в списке */

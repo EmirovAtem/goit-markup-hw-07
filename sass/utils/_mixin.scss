@@ -1,0 +1,120 @@
+@mixin fontLogo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+@mixin fontNav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+@mixin fontHero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+@mixin fontBenefits {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+}
+@mixin fontsection {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em; 
+}
+@mixin fontTitle {
+    width: 370px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;  
+}
+@mixin fontComand {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-align: center;   
+}
+@mixin portfolioDescript {
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: 0.03em;
+}
+@mixin portfolioTitle {
+    font-size: 18px;
+    line-height: 2;
+    text-align: Left;
+    vertical-align: top;
+    letter-spacing: 0.06em;
+}
+@mixin portfolioText {
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: Left;
+    vertical-align: top;
+    letter-spacing: 0.03em;
+}
+@mixin modalTitle {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+@mixin modalField {
+    height: 58px;
+    width: 448px;
+ font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.01em;
+}
+@mixin modalArea {
+    width: 448px;
+    height: 138px;
+     font-size: 12px;
+ line-height: 1.17;
+ letter-spacing: 0.01em;
+   }
+   @mixin footerAdress {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+   }
+   @mixin footerSocial {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+   }
+   @mixin footerForm {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+   }
+@mixin fontButtonHero {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+}
+@mixin fontButtonCase {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
