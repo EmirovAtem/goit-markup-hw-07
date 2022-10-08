@@ -1,8 +1,7 @@
-@mixin fontLogo {
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-  text-decoration: none;
+@mixin font ($fw, $fs, $lh){
+  font-weight: $fw;
+  font-size: $fs;
+  line-height: $lh;
 }
 @mixin fontNav {
   font-weight: 500;

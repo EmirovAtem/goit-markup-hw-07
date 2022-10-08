@@ -1,15 +1,15 @@
-
 .logo {
+  @include font(700, 26px, 1.2);
     font-family: $fontfamilyRaleway;
-    @include fontLogo;
-    
-    color: var(--logo-color);
+    text-decoration: none;
+color: var(--logo-color);
+}
  
   
   .logo__accent {
     font-family: $fontfamilyRaleway;
-    @include fontLogo;
+    @include font(700, 26px, 1.2);
+  text-decoration: none;
     letter-spacing: 0.03em;
     color: var(--accent-color);
   }
-}
