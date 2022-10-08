@@ -157,6 +157,7 @@ h3 {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  text-decoration: none;
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
@@ -199,20 +200,18 @@ h3 {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.nav__main-list a:hover,
-.nav__main-list a:focus {
+.nav__main-list a:hover, .nav__main-list a:focus {
   color: var(--accent-color);
 }
 
 .nav__link.nav__link-current:after {
   content: "";
+  position: absolute;
   display: block;
   width: 100%;
   height: 4px;
   border-radius: 2px;
   background: var(--accent-color);
-  position: absolute;
   bottom: 0px;
 }
 
@@ -240,9 +239,7 @@ h3 {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.nav__main-contact a:hover,
-.nav__main-contact a:focus {
+.nav__main-contact a:hover, .nav__main-contact a:focus {
   color: var(--accent-color);
 }
 
@@ -265,9 +262,7 @@ h3 {
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.nav__link-contact:focus .nav__icon-contact,
-.nav__link-contact:hover .nav__icon-contact {
+.nav__icon-contact:focus .nav__icon-contact, .nav__icon-contact:hover .nav__icon-contact {
   fill: var(--button-secondary-color);
 }
 
@@ -493,9 +488,8 @@ h3 {
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.comand__link-icon:hover,
-.comand__link-icon:focus {
+.comand__link-icon:hover, .comand__link-icon:focus {
+  fill: var(--whight-color);
   background-color: var(--accent-color);
 }
 
@@ -504,11 +498,6 @@ h3 {
   height: 20px;
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.comand__link-icon:hover .comand__icon,
-.comand__link-icon:focus .comand__icon {
-  fill: var(--whight-color);
 }
 
 .client__main {
@@ -557,9 +546,7 @@ h3 {
   -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.client__link:hover,
-.client__link:focus {
+.client__link:hover, .client__link:focus {
   border: 1px solid var(--button-secondary-color);
 }
 
@@ -632,11 +619,9 @@ h3 {
   margin-right: 30px;
   margin-bottom: 30px;
 }
-
 .portfolio__item:nth-child(3n) {
   margin-right: 0;
 }
-
 .portfolio__item:nth-last-child(-n+3) {
   margin-bottom: 0;
 }
@@ -648,9 +633,7 @@ h3 {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.portfolio__link:hover,
-.portfolio__link:focus {
+.portfolio__link:hover, .portfolio__link:focus {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -760,6 +743,7 @@ h3 {
   font-size: 26px;
   line-height: 1.2;
   text-decoration: none;
+  text-decoration: none;
   color: var(--whight-color);
 }
 
@@ -790,9 +774,7 @@ h3 {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.adress__link:hover,
-.adress__link:focus {
+.footer-adress__link:hover, .footer-adress__link:focus, .footer-adress__link-contact:hover, .footer-adress__link-contact:focus {
   color: var(--accent-color);
 }
 
@@ -801,9 +783,7 @@ h3 {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.footer-adress__link-contact:hover,
-.footer-adress__link-contact:focus {
+.footer-adress__link-contact:hover, .footer-adress__link-contact:focus {
   color: var(--accent-color);
 }
 
@@ -826,12 +806,10 @@ h3 {
   display: -ms-flexbox;
   display: flex;
 }
-
-.footer-social__title {
+.footer-social__main .footer-social__title {
   margin-right: 10px;
 }
-
-.footer-social__main .footer-social__title:last-child {
+.footer-social__main:last-child {
   margin-right: 0px;
 }
 
@@ -860,9 +838,7 @@ h3 {
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.footer-social__link:hover,
-.footer-social__link:focus {
+.footer-social__icon:hover, .footer-social__icon:focus {
   background-color: var(--accent-color);
 }
 
@@ -903,40 +879,35 @@ h3 {
   color: var(--whight-color);
   background-color: var(--hero-background-color);
 }
-
-.footer-form__forma-input::-webkit-input-placeholder {
+.footer-form__form-field input::-webkit-input-placeholder {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   background-color: var(--hero-background-color);
 }
-
-.footer-form__forma-input::-moz-placeholder {
+.footer-form__form-field input::-moz-placeholder {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   background-color: var(--hero-background-color);
 }
-
-.footer-form__forma-input:-ms-input-placeholder {
+.footer-form__form-field input:-ms-input-placeholder {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   background-color: var(--hero-background-color);
 }
-
-.footer-form__forma-input::-ms-input-placeholder {
+.footer-form__form-field input::-ms-input-placeholder {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   background-color: var(--hero-background-color);
 }
-
-.footer-form__forma-input::placeholder {
+.footer-form__form-field input::placeholder {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
@@ -979,7 +950,7 @@ h3 {
   right: 28px;
   width: 24px;
   height: 24px;
-  fill: #fff;
+  fill: var(--whight-color);
 }
 
 .backdrop {
@@ -1010,27 +981,24 @@ h3 {
   position: absolute;
   top: 50%;
   left: 50%;
-  position: absolute;
-  padding: 40px 39px 40px 41px;
   height: 581px;
   width: 528px;
   opacity: 1;
   -webkit-transform: translate(-50%, -50%) scale(1);
           transform: translate(-50%, -50%) scale(1);
-  -webkit-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  background-color: #ffffff;
-  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: rgb(255, 255, 255);
+  -webkit-box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.14) 0px 1px 1px, rgba(0, 0, 0, 0.2) 0px 2px 1px;
+          box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.14) 0px 1px 1px, rgba(0, 0, 0, 0.2) 0px 2px 1px;
+  padding: 40px 39px 40px 41px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) 0s, opacity 250ms cubic-bezier(0.4, 0, 0.2, 1) 0s, -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
   border-radius: 4px;
 }
 
 .modal__close {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 8px;
+  right: 8px;
+  border-radius: 100%;
   width: 30px;
   height: 30px;
   display: -webkit-box;
@@ -1050,7 +1018,6 @@ h3 {
   background-color: white;
 }
 
-/* MODAL-INPUT-FORVS */
 .modal__icon-close {
   width: 18px;
   height: 18px;
@@ -1089,7 +1056,6 @@ h3 {
           flex-direction: column;
 }
 
-/* element-name */
 .modal__field {
   position: relative;
   height: 58px;
@@ -1307,6 +1273,7 @@ h3 {
   background-color: #188CE8;
 }
 
-.modal__input:focus, .modal__input:hover {
+.modal__input:focus,
+.modal__input:hover {
   border-color: var(--accent-color);
 }/*# sourceMappingURL=main.css.map */

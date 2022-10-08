@@ -2,6 +2,7 @@
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  text-decoration: none;
 }
 @mixin fontNav {
   font-weight: 500;
@@ -68,6 +69,11 @@
     font-size: 20px;
     line-height: 1.15;
     text-align: center;
+    letter-spacing: 0.03em;
+}
+@mixin modalText {
+    font-size: 14px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
 }
 @mixin modalField {

@@ -11,13 +11,14 @@
   
   .footer-social__main {
     display: flex;
-  }
+  
   .footer-social__title {
     margin-right: 10px;
   }
-  .footer-social__main .footer-social__title:last-child {
+  &:last-child {
     margin-right: 0px;
   }
+}
   
   .footer-social__link {
     width: 44px;
@@ -36,8 +37,9 @@
     width: 20px;
       height: 20px;
       transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .footer-social__link:hover,
-  .footer-social__link:focus {
+  
+  &:hover,
+  &:focus {
     background-color: var(--accent-color);
   }
+}
