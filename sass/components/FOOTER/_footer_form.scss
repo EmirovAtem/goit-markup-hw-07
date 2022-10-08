@@ -1,7 +1,7 @@
 .footer-form {
   margin-left: 93px;
-}
-.footer-form__text {
+
+&__text {
   @include footerForm;
  
   color: var(--whight-color);
@@ -9,12 +9,12 @@
   margin-bottom: 20px;
 }
 
-.footer-form__card {
+&__card {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
+}
 .footer-form__form-field input {
   width: 358px;
   height: 50px;
