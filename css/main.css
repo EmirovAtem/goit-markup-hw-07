@@ -942,17 +942,16 @@ h3 {
   color: var(--whight-color);
   background-color: var(--accent-color);
 }
-
-.pointer {
-  cursor: pointer;
-}
-
 .footer-button__icon {
   position: absolute;
   right: 28px;
   width: 24px;
   height: 24px;
   fill: var(--whight-color);
+}
+
+.pointer {
+  cursor: pointer;
 }
 
 .backdrop {
