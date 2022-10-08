@@ -1,35 +1,35 @@
-//BASE
+//base
 @import "./utils/variables";
 @import "./utils/mixin";
 @import "./base/reset";
 @import "./base/common";
-@import "./base/_buttons";
 
-//COMPONENTS
+//components
 
 //HEADER
-@import "./components/HEADER/page-header";
-@import "./components/HEADER/logo";
-@import "./components/HEADER/navigation";
+@import "./components/header/page-header";
+@import "./components/header/logo";
+@import "./components/header/navigation";
 
-//STUDIO_PAGE
-@import "./components/STUDIO/hero";
-@import "./components/STUDIO/benefits";
-@import "./components/STUDIO/work";
-@import "./components/STUDIO/team";
-@import "./components/STUDIO/clients";
+//studio_page
+@import "./components/studio/hero";
+@import "./components/studio/benefits";
+@import "./components/studio/work";
+@import "./components/studio/team";
+@import "./components/studio/clients";
 
-//PORTFOLIO_PAGE
-@import "./components/PORTFOLIO/portfolio_case";
-@import "./components/PORTFOLIO/portfolio__main";
+//portfolio_page
+@import "./components/portfolio/portfolio_case";
+@import "./components/portfolio/portfolio__main";
 
-//FOOTER
-@import "./components/FOOTER/footer_page";
-@import "./components/FOOTER/footer_logo";
-@import "./components/FOOTER/footer_adress";
-@import "./components/FOOTER/footer_social";
-@import "./components/FOOTER/footer_form";
+//footer
+@import "./components/footer/footer_page";
+@import "./components/footer/footer_logo";
+@import "./components/footer/footer_adress";
+@import "./components/footer/footer_social";
+@import "./components/footer/footer_form";
+@import "./components/footer/buttons";
 
-//MODAL WINDOW  
- @import "./components/MODAL_WINDOW/backdrop";
- @import "./components/MODAL_WINDOW/modal";
+//modal_window 
+ @import "./components/modal_window/backdrop";
+ @import "./components/modal_window/modal";
