@@ -2,8 +2,9 @@
     @include fontLogo;
     text-decoration: none;
     color: var(--whight-color);
-  }
-  .logo-footer__text {
+  
+  &__text {
     font-family: $fontfamilyRaleway, sans-serif;
     color: var(--accent-color);
   }
+}
