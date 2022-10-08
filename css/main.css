@@ -728,7 +728,6 @@ h3 {
   padding-bottom: 60px;
   background-color: var(--hero-background-color);
 }
-
 .footer-section__flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -737,7 +736,6 @@ h3 {
       -ms-flex-align: baseline;
           align-items: baseline;
 }
-
 .footer-section__box {
   width: 231px;
 }
