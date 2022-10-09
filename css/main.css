@@ -694,12 +694,9 @@ h3 {
 .footer-adress {
   margin-top: 20px;
 }
-
-.footer-adress__title,
-.footer-adress__title-contact {
+.footer-adress__title, .footer-adress__title-contact {
   margin-bottom: 9px;
 }
-
 .footer-adress__main .footer-adress__title:last-child {
   margin-bottom: 0;
 }
