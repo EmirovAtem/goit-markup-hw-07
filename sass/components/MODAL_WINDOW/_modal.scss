@@ -104,10 +104,9 @@
 .modal__field-area {
   width: 448px;
   height: 138px;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.01em;
-}
+
+  @include fonts (12px, 1.17, 0.01em);
+ }
 .modal__field-area textarea:focus,
 .modal__field-area textarea:hover {
   border-color: var(--accent-color);
@@ -115,10 +114,9 @@
 .modal__area {
   width: 100%;
   height: 120px;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.01em;
 
+  @include fonts (12px, 1.17, 0.01em);
+ 
   resize: none;
 
   padding: 12px 16px;
@@ -134,9 +132,7 @@
 }
 
 ::placeholder {
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.01em;
+  @include fonts (12px, 1.17, 0.01em);
 
   color: rgba(117, 117, 117, 0.5);
 }
@@ -197,9 +193,8 @@
 }
 
 .modal__text {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  @include fonts (14px, 1.71, 0.03em);
+  
   margin-left: 23px;
 }
 .modal__check-icon .cheked-icon {
@@ -214,11 +209,9 @@
 .modale-button {
   width: 200px;
   height: 50px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
 
+  @include type (700, 16px, 1.88, 0.06em);
+  
   color: var(--whight-color);
   border: none;
   border-radius: 4px;
