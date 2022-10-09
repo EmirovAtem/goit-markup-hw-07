@@ -1025,7 +1025,8 @@ h3 {
   fill: var(--accent-color);
 }
 
-.modal__close:hover, .modal__close:focus {
+.modal__close:hover,
+.modal__close:focus {
   background-color: var(--whight-color);
 }
 
@@ -1096,7 +1097,8 @@ h3 {
   letter-spacing: 0.01em;
 }
 
-.modal__field-area textarea:focus, .modal__field-area textarea:hover {
+.modal__field-area textarea:focus,
+.modal__field-area textarea:hover {
   border-color: var(--accent-color);
 }
 
@@ -1238,7 +1240,7 @@ h3 {
 .modal-link {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
-  color: #2196F3;
+  color: #2196f3;
 }
 
 .modale-button {
@@ -1265,7 +1267,7 @@ h3 {
 
 .modale-button:hover,
 .modale-button:focus {
-  background-color: #188CE8;
+  background-color: #188ce8;
 }
 
 .modal__input:focus,

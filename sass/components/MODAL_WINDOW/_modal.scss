@@ -71,9 +71,8 @@
   height: 58px;
   width: 448px;
 
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.01em;
+  @include fonts (12px, 1.17, 0.01em);
+ 
   margin-bottom: 10px;
 }
 .modal__input {
