@@ -4,7 +4,8 @@
     padding-bottom: 94px;
   }
   .section__title {
-    @include fontsection;
+    @include type (700, 36px, 1.17, 0.03em);
+
     color: var(--title-text-color);
   
     text-align: center;
