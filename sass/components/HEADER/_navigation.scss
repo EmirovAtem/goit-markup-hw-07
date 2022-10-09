@@ -17,7 +17,10 @@
 
 .nav__main-list a {
   position: relative;
-  @include fontNav;
+  @include font(500, 14px, 1.14);
+  
+  letter-spacing: 0.02em;
+  text-decoration: none;
 
   margin-top: 0px;
   padding-top: 32px;
@@ -55,7 +58,11 @@
   margin-left: 50px;
 }
 .nav__main-contact a {
-  @include fontNav;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 
   padding-top: 32px;
   padding-bottom: 32px;

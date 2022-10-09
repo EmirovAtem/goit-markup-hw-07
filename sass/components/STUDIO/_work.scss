@@ -1,5 +1,8 @@
 .section__title {
-  @include fontsection;
+  font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
   color: var(--title-text-color);
 
   text-align: center;
@@ -28,7 +31,13 @@
     left: 0px;
     padding: 27px 0px;
 
-    @include fontTitle;
+    width: 370px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;  
 
     color: var(--whight-color);
     background-color: rgba(47, 48, 58, 0.8);

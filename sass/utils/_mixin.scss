@@ -2,14 +2,9 @@
   font-weight: $fw;
   font-size: $fs;
   line-height: $lh;
-}
-@mixin fontNav {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-}
+  }
+
+
 @mixin fontHero {
   font-weight: 900;
   font-size: 44px;

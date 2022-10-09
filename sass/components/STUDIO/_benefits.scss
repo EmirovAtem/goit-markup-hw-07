@@ -23,12 +23,16 @@
       }
       &__title {
         font-weight: 700;
-      @include fontBenefits;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
       
         color: var(--title-text-color);
       }
       &__text {
-        @include fontBenefits;
+        font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
         color: var(--primary-text-color);
       
         margin-top: 10px;

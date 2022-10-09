@@ -22,7 +22,11 @@
     padding-bottom: 30px;
    }
   .comand__title, .comand__text  {
-    @include fontComand;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-align: center; 
     color: var(--title-text-color);
   
     margin-bottom: 10px;

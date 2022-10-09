@@ -62,7 +62,9 @@
   .portfolio__descript {
     position: absolute;
   
-    @include portfolioDescript;
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: 0.03em;
     color: var(--whight-color);
   
     width: 100%;
@@ -88,12 +90,20 @@
     border-bottom: 1px solid var(--portfolio-card-border);
   }
   .portfolio__title {
-    @include portfolioTitle;
+    font-size: 18px;
+    line-height: 2;
+    text-align: Left;
+    vertical-align: top;
+    letter-spacing: 0.06em;
     color: var(--title-text-color);
   
     margin-bottom: 4px;
   }
   .portfolio__text {
-    @include portfolioText;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: Left;
+    vertical-align: top;
+    letter-spacing: 0.03em;
     color: var(--primary-text-color);
   }

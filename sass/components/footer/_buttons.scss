@@ -1,6 +1,9 @@
  //HERO BUTTON 
  .hero__button {
-  @include fontButtonHero;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
   
   border: none;
   border-radius: 4px;
@@ -19,7 +22,11 @@
 
 //CASE BUTTON
 .case__button {
-  @include fontButtonCase;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+  text-align: center;
 
    border-radius: 4px;
    border: none;
@@ -48,7 +55,10 @@
 .footer-button {
   position: relative;
 
- @include fontButtonHero;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
   
   display: flex;
   justify-content: center;
