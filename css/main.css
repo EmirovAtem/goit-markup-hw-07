@@ -328,14 +328,14 @@ h3 {
   position: absolute;
   bottom: 0px;
   left: 0px;
-  padding: 27px 0px;
   width: 370px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   text-transform: uppercase;
+  padding: 27px 0px;
   color: var(--whight-color);
   background-color: rgba(47, 48, 58, 0.8);
 }
@@ -642,9 +642,9 @@ h3 {
 .portfolio__title {
   font-size: 18px;
   line-height: 2;
+  letter-spacing: 0.06em;
   text-align: Left;
   vertical-align: top;
-  letter-spacing: 0.06em;
   color: var(--title-text-color);
   margin-bottom: 4px;
 }
@@ -652,9 +652,9 @@ h3 {
 .portfolio__text {
   font-size: 16px;
   line-height: 1.88;
+  letter-spacing: 0.03em;
   text-align: Left;
   vertical-align: top;
-  letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
 
