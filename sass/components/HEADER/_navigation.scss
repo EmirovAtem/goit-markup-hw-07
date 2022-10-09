@@ -57,10 +57,8 @@
   margin-left: 50px;
 }
 .nav__main-contact a {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+  @include type (500, 14px, 1.14, 0.02em);
+ 
   text-decoration: none;
 
   padding-top: 32px;

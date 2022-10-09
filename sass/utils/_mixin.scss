@@ -3,6 +3,7 @@
   font-size: $fs;
   line-height: $lh;
 }
+@mixin fonts
 @mixin type($fw, $fs, $lh, $ls) {
   font-weight: $fw;
   font-size: $fs;
