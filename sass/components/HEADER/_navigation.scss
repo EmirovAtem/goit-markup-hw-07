@@ -17,9 +17,8 @@
 
 .nav__main-list a {
   position: relative;
-  @include font(500, 14px, 1.14);
-  
-  letter-spacing: 0.02em;
+  @include type(500, 14px, 1.14, 0.02em);
+
   text-decoration: none;
 
   margin-top: 0px;

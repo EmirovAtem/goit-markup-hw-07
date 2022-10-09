@@ -7,8 +7,7 @@
 
 .logo__accent {
   font-family: $fontfamilyRaleway;
-  @include font(700, 26px, 1.2);
-  letter-spacing: 0.03em;
+  @include type(700, 26px, 1.2, 0.03em);
   text-decoration: none;
   color: var(--accent-color);
 }
