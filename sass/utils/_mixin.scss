@@ -3,10 +3,10 @@
   font-size: $fs;
   line-height: $lh;
 }
-@mixin fonts ($fs, $lh, $ls) {
-    font-size: $fs;
-    line-height: $lh;
-    letter-spacing: $ls;   
+@mixin fonts($fs, $lh, $ls) {
+  font-size: $fs;
+  line-height: $lh;
+  letter-spacing: $ls;
 }
 
 @mixin type($fw, $fs, $lh, $ls) {

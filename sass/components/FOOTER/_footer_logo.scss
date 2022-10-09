@@ -1,8 +1,8 @@
 .logo-footer {
   @include font(700, 26px, 1.2);
-    text-decoration: none;
-    color: var(--whight-color);
-  
+  text-decoration: none;
+  color: var(--whight-color);
+
   &__text {
     font-family: $fontfamilyRaleway, sans-serif;
     color: var(--accent-color);

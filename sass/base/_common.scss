@@ -1,28 +1,28 @@
 .section {
-    margin: 0 auto;
-    padding-top: 94px;
-    padding-bottom: 94px;
-  }
-  .section__title {
-    @include type (700, 36px, 1.17, 0.03em);
+  margin: 0 auto;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.section__title {
+  @include type(700, 36px, 1.17, 0.03em);
 
-    color: var(--title-text-color);
-  
-    text-align: center;
-    margin-bottom: 50px;
-  }
-  .page {
-    font-family: $fontfamilyRoboto, sans-serif;
-    color: var(--primary-text-color);
-    background-color: var(--whight-color);
-  }
-  .container {
-    width: 1200px;
-    margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-  
-  .pointer {
-    cursor: pointer;
-  }
+  color: var(--title-text-color);
+
+  text-align: center;
+  margin-bottom: 50px;
+}
+.page {
+  font-family: $fontfamilyRoboto, sans-serif;
+  color: var(--primary-text-color);
+  background-color: var(--whight-color);
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.pointer {
+  cursor: pointer;
+}
