@@ -3,10 +3,8 @@
     margin-left: 70px;
   
   &__text {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
+    @include type (700, 14px, 1.14, 0.03em);
+   
     text-transform: uppercase;
     color: var(--whight-color);
   
